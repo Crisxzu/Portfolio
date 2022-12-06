@@ -1,0 +1,198 @@
+/*Police Great Vibes*/
+@import url("https://fonts.googleapis.com/css?family=Great%20Vibes&display=swap");
+
+
+body {
+    margin: 0rem;
+    background-color: rgb(36 34 34);
+}
+
+@media screen and (min-width: 800px) {
+
+    #header {
+        display: flex;
+        background-color: black;
+        position: fixed;
+    }
+
+    #nav_bar {
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #nav_bar div {
+        position: relative;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #nav_bar div a {
+        display: inline-block;
+        margin: 20px 10px;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #website_author {
+        font-family: "Great Vibes", sans-serif;
+        margin: 20px 10px;
+    }
+
+    #nav_bar div[class="nav_bar_buttons"]:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("img/banner.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 60vh;
+        padding-top: 10vh;
+        z-index: 1;
+    }
+
+    #banner div {
+        width: 40%;
+        position: right;
+        align-self: flex-end;
+    }
+
+    #banner p {
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        font-family: "Great Vibes", sans-serif;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #header {
+        display: flex;
+        background-color: black;
+    }
+
+    #nav_bar {
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #nav_bar div {
+        position: relative;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #nav_bar div a {
+        display: inline-block;
+        margin: 20px 10px;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #website_author {
+        font-family: "Great Vibes", sans-serif;
+        margin: 20px 10px;
+    }
+
+    #nav_bar div[class="nav_bar_buttons"]:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("img/banner.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 50vh;
+        padding-top: 10vh;
+        z-index: 1;
+    }
+
+    #banner div {
+        width: 40%;
+        position: right;
+        align-self: flex-end;
+    }
+
+    #banner p {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Great Vibes", sans-serif;
+    }
+}
+
+.spacer_img {
+    height: 5rem;
+    width: 100%;
+    background: url("img/spacer_img.gif");
+    background-repeat: round no-repeat;
+}
+
+.projects_presentation {
+    display: flex;
+}
+
+.projects_presentation img
+{
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 1rem;
+    flex: 1;
+}
+
+.projects_presentation article {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex: 1;
+}
+
+.projects_presentation article h2 {
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    font-family: "Great Vibes", sans-serif;
+    margin: 0rem;
+}
+
+.projects_presentation p {
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    margin: 0rem;
+    flex: 2;
+
+}
+
+footer {
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+}
